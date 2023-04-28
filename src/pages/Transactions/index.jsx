@@ -97,7 +97,7 @@ const Transactions = () => {
           mb={3}
           columns={columns}
           data={ordersData}
-          customPageSize={6}
+          customPageSize={5}
         />
       </Card>
     </>

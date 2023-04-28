@@ -44,7 +44,7 @@ const Dashboard = () => {
             <Row>
               {reports.map((report, key) => (
                 <Col md="4" key={"_col_" + key}>
-                  <Card className="mini-stats-wid">
+                  <Card className="mini-stats-wid sales">
                     <CardBody>
                       <div className="d-flex icon-sm rounded-circle bg-primary align-self-center mini-stat-icon">
                         <span

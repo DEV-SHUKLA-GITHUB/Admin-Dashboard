@@ -8,7 +8,9 @@ a {
   text-decoration: none;
   color: $black;
 }
-
+.header{
+  color:white;
+}
 
 /* Dashboard */
 .credit-card-container {
@@ -18,6 +20,9 @@ a {
   p {
     margin-bottom: 0.25rem;
   }
+}
+.sales{
+  height: 15.5rem;
 }
 
 .mini-stats-wid{
@@ -51,7 +56,33 @@ a {
         }
     }
 }
+.header-btn {
+  background: #499bd1;
+  background: linear-gradient(90deg, #84D9FE, #A797FF);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 4px 5px #faf7fa;
+  -moz-box-shadow: 3px 4px 5px #faf7fa;
+  box-shadow: 3px 4px 5px #706e70;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-left: 3rem;
+}
 
+.header-btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  color: #fff;
+}
 .icon-container {
   align-items: center;
   background-color: $primary;

@@ -7,7 +7,7 @@ const Header = () => {
     return <div>hello</div>;
   };
   return (
-    <header id="page-topbar" className="d-flex w-100">
+    <header id="page-topbar" className="d-flex w-100 bg-black header">
       <div className="navbar-header d-flex w-100 justify-content-between">
         <div className="d-flex w-100 justify-content-between">
           <div>
@@ -15,14 +15,14 @@ const Header = () => {
               to="/"
               // className="menu-item py-3 text-sm my-0 mx-4 px-4 d-flex align-items-center"
             >
-              <span>Dashboard</span>
+              <button className="header-btn">Dashboard</button>
             </Link>
-            <span> / </span>
+            {/* <span> / </span> */}
             <Link
               to="/transactions"
               // className="menu-item py-3 text-sm my-0 mx-4 px-4 d-flex align-items-center"
             >
-              <span>Transactions</span>
+              <button className="header-btn">Transactions</button>
             </Link>
           </div>
           <div className="header-navigation">
